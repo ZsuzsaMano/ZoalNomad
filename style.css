@@ -5,7 +5,7 @@
 }
 
 :root {
-  --main-color: #F7C59F;
+  --main-color: #C7CCDB;
 }
 
 body{
@@ -28,7 +28,7 @@ ul{
 }
 
 li{
-  padding: 8px;
+  padding: 10px;
   font-size: 1.3rem;
   font-family: sans-serif;
 }
@@ -45,7 +45,7 @@ transition: all 1s ease-in;
 }
 
 header img:hover{
-opacity: 0.4;
+opacity: 0.3;
 }
 
 
@@ -80,8 +80,14 @@ section{
 }
 
 .about{
-  border-radius: 50% / 30%;
-  padding: 30px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  padding: 50px;
+  padding-top: 30px;
   background-image: linear-gradient(var(--main-color), white, var(--main-color));
   font-size: 1.2rem;
+}
+
+.about h2{
+  text-align: center;
+  padding-bottom: 20px;
 }
