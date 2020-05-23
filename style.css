@@ -16,7 +16,6 @@ body{
 
 navbar{
   display:flex;
-  justify-content: space-around;
   align-items: center;
   position:fixed;
   min-height: 8vh;
@@ -30,6 +29,7 @@ navbar{
   display: flex;
   list-style: none;
   letter-spacing:3px;
+  justify-content: space-around;
 }
 
 .nav-links li{
