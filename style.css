@@ -219,6 +219,8 @@ section{
 
 img{
   border-radius:5px;
+  width:300px;
+  height:300px;
 }
 
 .flip-box-front {
@@ -244,4 +246,9 @@ img{
   background: white;
   padding: 3px;
   border-radius: 5px;
+}
+
+.flip-box-back p{
+  font-size: 1rem;
+  padding: 15px;
 }
