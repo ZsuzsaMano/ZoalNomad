@@ -28,15 +28,20 @@ navbar{
 
 .nav-links{
   display: flex;
-  justify-content: space-around;
   list-style: none;
+  letter-spacing:3px;
+}
+
+.nav-links li{
+    padding: 10px;
+    font-size: 1.3rem;
+    font-family: sans-serif;
 }
 
 .nav-links a{
   text-decoration:none;
   color: var(--font-color);
   font-weight: bold;
-  font-size: 14px;
   letter-spacing:3px;
 }
 
@@ -106,21 +111,7 @@ navbar{
   transform: rotate(45deg) translate(-5px,-6px);
   }
 
-ul{
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
 
-li{
-  padding: 10px;
-  font-size: 1.3rem;
-  font-family: sans-serif;
-}
-
-a{
-  color: black;
-}
 
 
 header img{
