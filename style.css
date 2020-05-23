@@ -193,6 +193,7 @@ section{
   perspective: 1000px;
   margin: 10px;
   border-radius:5px;
+  cursor:pointer;
 }
 
 .flip-box-inner {
