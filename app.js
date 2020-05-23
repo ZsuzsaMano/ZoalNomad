@@ -25,3 +25,20 @@ const navSlide = () => {
 };
 
 navSlide();
+
+//flip jewellery image
+
+const innerBox = document.querySelectorAll('.flip-box-inner');
+
+const flipBox = document.querySelectorAll('.flip-box');
+
+for (let i = 0; i < flipBox.length; i++) {
+  flipBox[i].addEventListener('click', function () {
+    innerBox[i].classList.toggle('flip-box-active');
+  });
+}
+
+const flipImage = () => {
+  innerBox.forEach(box=>
+          box.classList.toggle('flip-box-active'));
+};
