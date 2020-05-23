@@ -217,7 +217,7 @@ section{
   backface-visibility: hidden;
 }
 
-img{
+.flip-box-front img{
   border-radius:5px;
   width:300px;
   height:300px;
