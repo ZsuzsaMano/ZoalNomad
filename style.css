@@ -11,12 +11,11 @@
 
 body{
   height: 100vh;
-  background-image: linear-gradient( var(--main-color), white);
+  background-image: linear-gradient( var(--main-color), white,  var(--main-color));
 }
 
 navbar{
   display:flex;
-  align-items: center;
   position:fixed;
   min-height: 8vh;
   width: 100%;
@@ -29,6 +28,7 @@ navbar{
   display: flex;
   list-style: none;
   letter-spacing:3px;
+  align-items: center;
   justify-content: space-around;
 }
 
@@ -36,12 +36,12 @@ navbar{
     padding: 10px;
     font-size: 1.3rem;
     font-family: sans-serif;
+    width: 150px;
 }
 
 .nav-links a{
   text-decoration:none;
   color: var(--font-color);
-  font-weight: bold;
   letter-spacing:3px;
 }
 
@@ -166,4 +166,21 @@ section{
 .about h2{
   text-align: center;
   padding-bottom: 20px;
+}
+
+@media all and (max-width:600px){
+  .about{
+    clip-path: polygon(50% 0%, 100% 18%, 100% 82%, 50% 100%, 0 82%, 0 18%);
+
+  }
+}
+
+.jewellery-fotos{
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 3h0px;
+}
+
+.foto{
+  margin: 10px;
 }
