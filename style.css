@@ -192,6 +192,7 @@ section{
   border: 1px solid #f1f1f1;
   perspective: 1000px;
   margin: 10px;
+  border-radius:5px;
 }
 
 .flip-box-inner {
@@ -211,8 +212,13 @@ section{
   position: absolute;
   width: 100%;
   height: 100%;
+  border-radius:5px;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
+}
+
+img{
+  border-radius:5px;
 }
 
 .flip-box-front {
@@ -222,7 +228,8 @@ section{
 .flip-box-back {
   display:flex;
   flex-direction:column;
-  background-color: grey;
+  background-color: var(--main-color);
+  border-radius:5px;
   color: white;
   transform: rotateY(180deg);
   align-items: center;
