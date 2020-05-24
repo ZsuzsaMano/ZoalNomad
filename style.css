@@ -40,7 +40,6 @@ navbar{
 
 .nav-links li:hover{
   transform: scale(1.1);
-  text-decoration: underline;
 }
 
 .nav-links a{
