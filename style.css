@@ -108,6 +108,7 @@ li a:hover:after {
   }
   .burger{
     display: block;
+    margin-top: 8px;
   }
 
 }
