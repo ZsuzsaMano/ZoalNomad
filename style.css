@@ -62,6 +62,30 @@ navbar{
   transition: all 0.5s ease;
 }
 
+li a{
+  position:relative;
+  text-decoration:none;
+  padding: 0 5px;
+}
+
+
+li a:after {
+  bottom: -5px;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+  position: absolute;
+  background: #111;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+li a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+
 
 @media screen and (max-width:768px){
   body{
@@ -151,19 +175,16 @@ opacity: 0.3;
 opacity:1;
 }
 
-section{
-  padding: 8px;
-  line-height: 1.5rem;
-  max-width: 800px;
-  margin: auto;
-}
 
 .about{
+  margin: auto;
+  max-width: 800px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   padding: 50px;
   padding-top: 30px;
   background-image: linear-gradient(var(--main-color), white, var(--main-color));
   font-size: 1.1rem;
+  line-height: 1.5rem;
 }
 
 .about h2{
@@ -176,6 +197,12 @@ section{
     clip-path: polygon(50% 0%, 100% 18%, 100% 82%, 50% 100%, 0 82%, 0 18%);
 
   }
+}
+
+.jewellery h2{
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 30px;
 }
 
 .jewellery-fotos{
