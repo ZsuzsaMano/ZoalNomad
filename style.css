@@ -372,3 +372,55 @@ opacity:1;
   }
 
 }
+
+@media all and (max-width:500px){
+ .reference-list{
+  width: 1000%;
+  animation: 25s slider infinite;
+}
+  @keyframes slider{
+  0%{
+    left:0;
+  }
+  10%{
+    left:0;
+  }
+  20%{
+    left:-100%;}
+   25%{
+    left:-100%;
+  }
+  35%{
+    left:-200%;
+  }
+  40%{
+    left:-200%;
+  }
+  50%{
+    left:-300%;
+  }
+   55%{
+    left:-300%;
+  }
+    65%{
+    left:-400%;
+  }
+  70%{
+    left:-400%;
+  }
+  80%{
+    left:-500%;
+  }
+  85%{
+    left:-500%;
+  }
+  95%{
+    left:-600%;
+  }
+   100%{
+    left:-600%;
+  }
+
+}
+
+}
