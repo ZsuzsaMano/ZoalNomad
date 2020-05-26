@@ -1,13 +1,20 @@
+:root {
+  --main-color: #C7CCDB;
+  --font-color: black;
+}
+
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  --main-color: #C7CCDB;
-  --font-color: black;
+a{
+  text-decoration: none;
+  color: var(--font-color);
 }
+
+
 
 body{
   height: 100vh;
@@ -291,4 +298,74 @@ opacity:1;
 .flip-box-back p{
   font-size: 1rem;
   padding: 15px;
+}
+
+.references h2{
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 30px;
+}
+
+.reference-list{
+  margin-top:30px;
+  display: flex;
+  justify-content: space-around;
+  overflow-x: hidden;
+  width: 300%;
+  position: relative;
+  animation: 25s slider infinite;
+}
+
+.reference{
+  padding: 5px;
+  width: 30%;
+}
+
+.reference p{
+  padding: 5px;
+}
+
+@keyframes slider{
+  0%{
+    left:0;
+  }
+  10%{
+    left:0;
+  }
+  20%{
+    left:-30%;}
+   25%{
+    left:-30%;
+  }
+  35%{
+    left:-60%;
+  }
+  40%{
+    left:-60%;
+  }
+  50%{
+    left:-90%;
+  }
+   55%{
+    left:-90%;
+  }
+    65%{
+    left:-120%;
+  }
+  70%{
+    left:-120%;
+  }
+  80%{
+    left:-150%;
+  }
+  85%{
+    left:-150%;
+  }
+  95%{
+    left:-180%;
+  }
+   100%{
+    left:-180%;
+  }
+
 }
