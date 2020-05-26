@@ -380,45 +380,45 @@ opacity:1;
 }
   @keyframes slider{
   0%{
-    left:0;
+    left:10%;
   }
   10%{
-    left:0;
+    left:10%;
   }
   20%{
-    left:-100%;}
+    left:-90%;}
    25%{
-    left:-100%;
+    left:-90%;
   }
   35%{
-    left:-200%;
+    left:-190%;
   }
   40%{
-    left:-200%;
+    left:-190%;
   }
   50%{
-    left:-300%;
+    left:-290%;
   }
    55%{
-    left:-300%;
+    left:-290%;
   }
     65%{
-    left:-400%;
+    left:-395%;
   }
   70%{
-    left:-400%;
+    left:-395%;
   }
   80%{
-    left:-500%;
+    left:-495%;
   }
   85%{
-    left:-500%;
+    left:-495%;
   }
   95%{
-    left:-600%;
+    left:-590%;
   }
    100%{
-    left:-600%;
+    left:-590%;
   }
 
 }
