@@ -392,7 +392,7 @@ opacity:1;
         max-width: 100vh;
       }
       .panel p {
-        font-size: 1rem;
+        display:none;
       }
   }
 
