@@ -23,6 +23,8 @@ body{
 
 navbar{
   position:fixed;
+  display: flex;
+  justify-content: space-around;
   min-height: 8vh;
   width: 100%;
   background: var(--main-color);
@@ -30,9 +32,18 @@ navbar{
   z-index: 1;
 }
 
+.logo{
+  color:var(--font-color);
+  letter-spacing: 5px;
+  font-size:20px;
+  display: none;
+  font-family: 'Allura', cursive;
+}
+
 .nav-links{
   display: flex;
   list-style: none;
+  text-transform: uppercase;
   letter-spacing:3px;
   align-items: center;
   justify-content: space-around;
@@ -40,6 +51,7 @@ navbar{
 
 .nav-links li{
     padding: 10px;
+    margin: auto 20px;
     font-size: 1.3rem;
     font-family: sans-serif;
     transition: all 0.3s ease-in;
@@ -115,9 +127,10 @@ li a:hover:after {
   }
   .burger{
     display: block;
-    margin-top: 8px;
   }
-
+.logo{
+  display:block;
+}
 }
 
  .nav-active{
@@ -146,12 +159,17 @@ li a:hover:after {
   transform: rotate(45deg) translate(-5px,-6px);
   }
 
+.img-background{
+  text-align: center;
+}
 
 
 
 header img{
+  position: relative;
+  top:8vh;
   height: 400px;
-width: 100%;
+  width:100%;
 transition: all 1s ease-in;
 }
 
@@ -189,24 +207,16 @@ opacity:1;
 .about{
   margin: auto;
   max-width: 800px;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   padding: 50px;
+  margin-top:8vh;
   padding-top: 30px;
-  background-image: linear-gradient(var(--main-color), white, var(--main-color));
   font-size: 1.1rem;
-  line-height: 1.5rem;
+  line-height: 1.9rem;
 }
 
-.about h2{
-  text-align: center;
-  padding-bottom: 20px;
-}
 
-@media all and (max-width:600px){
-  .about{
-    clip-path: polygon(50% 0%, 100% 18%, 100% 82%, 50% 100%, 0 82%, 0 18%);
-
-  }
+#about-firstline{
+  font-size:1.6rem;
 }
 
 /* jewellery */
@@ -318,6 +328,7 @@ opacity:1;
   max-width:1000px;
   margin: auto;
   margin-top: 30px;
+  cursor:pointer;
 }
 
 .panel1{
@@ -339,6 +350,7 @@ opacity:1;
 
 .panel{
   flex:1;
+  flex-shrink: 10;
   height: 400px;
   background-position:center;
   background-size: auto 400px;
@@ -364,7 +376,14 @@ opacity:1;
 
 .open{
   flex:4;
+  flex-shrink: 1;
   font-size: 3rem;
+  }
+
+  @media all and (max-width: 800px){
+    .open{
+      flex:100;
+      }
   }
 
   /* references*/
