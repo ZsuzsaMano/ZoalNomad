@@ -248,11 +248,11 @@ opacity:1;
   margin: 10px;
   border-radius:5px;
   cursor:pointer;
-  box-shadow: 0px 0px 5px 3px grey;
+  box-shadow: 0px 0px 5px 3px #555;
 }
 
 .flip-box:hover{
- box-shadow: 0px 0px 10px 5px;
+ box-shadow: 0px 0px 10px 5px #777;
 }
 
 
@@ -520,5 +520,43 @@ opacity:1;
   }
 
 }
+
+}
+
+/*Location*/
+.location h2{
+text-align: center;
+}
+
+.maps{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.where{
+  max-width: 450px;
+}
+
+.where p{
+  padding:10px;
+}
+
+/*Social Media*/
+
+.social-media{
+ justify-content: center;
+  display: flex;
+  font-size: 2rem;
+  background-color: #444;
+    margin-top: 50px;
+}
+
+.social-media p{
+  padding:10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+  margin: 5px;
 
 }
