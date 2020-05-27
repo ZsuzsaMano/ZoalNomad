@@ -322,6 +322,10 @@ opacity:1;
   margin-top: 50px;
 }
 
+.stand{
+  max-width: 100vh;
+}
+
 
 .panels{
   display: flex;
