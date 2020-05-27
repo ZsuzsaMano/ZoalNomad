@@ -42,3 +42,13 @@ const flipImage = () => {
   innerBox.forEach(box=>
           box.classList.toggle('flip-box-active'));
 };
+
+// toggle stand imgs
+
+const panel = document.querySelectorAll('.panel');
+
+const toggleOpen = (e)=> {
+  e.target.classList.toggle('open');
+};
+
+panel.forEach(panel=> panel.addEventListener('click', toggleOpen));
