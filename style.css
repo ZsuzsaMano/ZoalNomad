@@ -206,6 +206,9 @@ opacity:1;
   .name{
   display:none;
   }
+  header img:hover{
+  opacity: 1;
+  }
 }
 
 /* About */
