@@ -553,7 +553,7 @@ text-align: center;
 }
 
 @media all and (max-width: 600px;){
-  .where{
+  iframe{
     max-width: 95vh;
   }
 }
