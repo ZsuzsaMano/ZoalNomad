@@ -1,24 +1,28 @@
 :root {
-  --main-color: #C7CCDB;
-  --font-color: #111;
+  --main-color: #b9dae7;
+  --font-color: #1c6683;
+  --h2-color:#044e6b;
+  --span-color: #185871;
+  --brown-color: #2d0603;
 }
 
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  color:var(--font-color);
 }
 
 a{
   text-decoration: none;
-  color: var(--font-color);
+  color:var(--font-color);
 }
 
 h2{
   font-size: 3rem;
   margin-top: 100px;
   text-align: center;
-  color:#131416;
+  color: var(--h2-color);
   margin-bottom: 50px;
 
 }
@@ -78,7 +82,7 @@ navbar{
 
 .nav-links a{
   text-decoration:none;
-  color: var(--font-color);
+  color: var(--brown-color);
   letter-spacing:3px;
 }
 
@@ -201,11 +205,11 @@ opacity: 0.3;
 .name{
   text-align: center;
   position: absolute;
-  font-size:6rem;
+  font-size:8rem;
   left: 50%;
   top: 30vh;
   transform: translateX(-50%);
-  color: black;
+  color:var(--h2-color);
   opacity: 0;
   pointer-events: none;
   font-family: 'Allura', cursive;
@@ -244,6 +248,8 @@ opacity:1;
 
 #about-firstline{
   font-size:2rem;
+  line-height: 0.7px;
+  color:var(--span-color);
 }
 
 /* jewellery */
@@ -332,6 +338,10 @@ opacity:1;
   background: white;
   padding: 3px;
   border-radius: 5px;
+}
+
+.flip-box-back h3{
+  font-size: 1.7rem;
 }
 
 .flip-box-back p{
@@ -574,6 +584,11 @@ reference h2{
   padding:10px;
 }
 
+.where span{
+  color:var(--span-color);
+  font-weight: bold;
+}
+
 @media all and (max-width: 600px){
   iframe{
     max-width: 100%;
@@ -586,7 +601,7 @@ reference h2{
  justify-content: center;
   display: flex;
   font-size: 2rem;
-  background-color: #444;
+  background-color: var(--h2-color);
   margin-top: 50px;
 }
 
