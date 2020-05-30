@@ -22,7 +22,7 @@ h2{
   font-size: 3rem;
   margin-top: 100px;
   text-align: center;
-  color: var(--h2-color);
+  color: var(--brown-color);
   margin-bottom: 50px;
 
 }
@@ -51,10 +51,10 @@ navbar{
   z-index: 1;
 }
 
-.logo{
+.logo h4{
   color:var(--brown-color);
   letter-spacing: 5px;
-  font-size:20px;
+  font-size:26px;
   display: none;
   font-family: 'Allura', cursive;
 }
@@ -147,7 +147,7 @@ li a:hover:after {
   .burger{
     display: block;
   }
-.logo{
+.logo h4{
   display:block;
 }
 }
@@ -438,6 +438,8 @@ opacity:1;
 }
 
 .references h2{
+  color:var(--h2-color);
+  font-size: 2.4rem;
 }
 
 .reference-list{
@@ -460,8 +462,12 @@ opacity:1;
   margin-top:10px;
 }
 
-reference h2{
+.reference h2{
   margin-bottom: 20px;
+}
+
+.reference h3{
+  color: var(--brown-color);
 }
 
 @keyframes slider{
@@ -563,6 +569,7 @@ reference h2{
 
 /*Location*/
 .location h2{
+  font-size: 2.4rem;
 }
 
 .location p{
@@ -612,4 +619,8 @@ reference h2{
   border-radius: 5px;
   margin: 5px;
 
+}
+
+.social-media a i{
+  color:var(--brown-color);
 }
