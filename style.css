@@ -248,7 +248,6 @@ opacity:1;
 
 #about-firstline{
   font-size:2rem;
-  line-height: 0.7px;
   color:var(--span-color);
 }
 
@@ -347,6 +346,29 @@ opacity:1;
 .flip-box-back p{
   font-size: 1rem;
   padding: 15px;
+}
+
+@media all and (max-width:600px){
+  .flip-box{
+    width:100px;
+    height:100px;
+  }
+
+  .flip-box-front img{
+    width:100px;
+    height:100px;
+  }
+
+  .flip-box-back h3{
+    font-size: 1rem;
+  }
+    .flip-box-back p{
+    display: none;}
+
+    .flip-box-back a{
+      font-size: 1rem;
+      margin-top: 5px;
+    }
 }
 
 /* stand */
