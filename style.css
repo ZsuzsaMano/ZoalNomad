@@ -51,11 +51,14 @@ navbar{
   z-index: 1;
 }
 
+.logo{
+  display: none;
+}
+
 .logo h4{
   color:var(--brown-color);
   letter-spacing: 5px;
   font-size:26px;
-  display: none;
   font-family: 'Allura', cursive;
 }
 
