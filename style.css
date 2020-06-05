@@ -125,14 +125,14 @@ li a:hover:after {
 
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:1024px){
   body{
     overflow-x:hidden;
   }
     .nav-links{
     position: absolute;
       right: 0px;
-      height: 82vh;
+      height: 50vh;
       top: 8vh;
       display: flex;
       flex-direction: column;
