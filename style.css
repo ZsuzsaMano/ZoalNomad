@@ -153,6 +153,9 @@ li a:hover:after {
 .logo h4{
   display:block;
 }
+.logo{
+  display: block;
+}
 }
 
  .nav-active{
