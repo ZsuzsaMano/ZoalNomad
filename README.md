@@ -2,8 +2,8 @@
 
 
 This is a portfolio website for the shop. 
-It is made to apply for markets and festivals to sell their products. 
-On the site I list all waht is needed for the application.
+It is made to present selling products for markets and festivals. 
+On the site, I list what is required for the application.
 
 short description,
 photos of products //flip images, 
