@@ -9,7 +9,6 @@
 </p>
 
 <p align="center">
-
  HTML, CSS, JS6
 </p>
 
