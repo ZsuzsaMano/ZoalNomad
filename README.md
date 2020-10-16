@@ -8,8 +8,10 @@
   </a>
 </p>
 
+<p align="center">
 
-Using HTML, CSS, JS6
+ HTML, CSS, JS6
+</p>
 
 
 ***
