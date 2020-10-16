@@ -21,21 +21,21 @@ On the site I list all what is needed for the application.
 
 <p align="center">
   <a href="https://zoalnomad.com">
-    <img src="./gif/menu.gif" alt="Logo" >
+    <img src="./gif/menu.gif" alt="menu" >
   </a>
 </p>
 
 #### Photos of products
 <p align="center">
   <a href="https://zoalnomad.com">
-    <img src="./gif/products.gif" alt="Logo" >
+    <img src="./gif/products.gif" alt="products" >
   </a>
 </p>
 
 #### Photos of stand on different events
 <p align="center">
   <a href="https://zoalnomad.com">
-    <img src="./gif/stand.gif" alt="Logo" >
+    <img src="./gif/stand.gif" alt="stand" >
   </a>
 </p>
 
@@ -43,7 +43,7 @@ On the site I list all what is needed for the application.
 #### References/ previous experience
 <p align="center">
   <a href="https://zoalnomad.com">
-    <img src="./gif/references.gif" alt="Logo" >
+    <img src="./gif/references.gif" alt="references" >
   </a>
 </p>
 
@@ -51,7 +51,7 @@ On the site I list all what is needed for the application.
 #### Location and time of the market where they can be found
 <p align="center">
   <a href="https://zoalnomad.com">
-    <img src="./gif/map.gif" alt="Logo" >
+    <img src="./gif/map.gif" alt="location" >
   </a>
 </p>
 
@@ -59,6 +59,6 @@ On the site I list all what is needed for the application.
 #### Link to webshop
 <p align="center">
   <a href="https://zoalnomad.com">
-    <img src="./gif/etsy.gif" alt="Logo" >
+    <img src="./gif/etsy.gif" alt="webshop" >
   </a>
 </p>
